@@ -5,7 +5,9 @@
 }
 
 body {
+  max-width: 100%;
   background: #ffffff;
+  color: #212121;
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
 }
@@ -14,10 +16,7 @@ body {
   display: flex;
 }
 
-.header-box {
-  height: 80px;
-  width: 1600px;
-  border: solid black;
+.header-block {
   background: #ffffff;
 }
 
@@ -29,6 +28,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-black);
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .logo span {
@@ -45,6 +45,20 @@ body {
   color: var(--main-black);
 }
 
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 371px;
+}
+
+.logo:hover,
 .top-title:hover,
 .top-title:active,
 .footer-contact:hover,
@@ -52,11 +66,24 @@ body {
   color: #2196f3;
 }
 
-.button {
-  color: black;
+.button-1 {
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
 }
 
-.button:hover {
+.button-1 span {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.button-1:hover {
   background-color: var(--primary-color);
 }
 
@@ -72,6 +99,23 @@ body {
 
 .logo-2 span {
   color: #2196f3;
+}
+
+.main-block-1 {
+  height: 600px;
+  width: 1600px;
+  background: #2f303a;
+}
+
+.main-title {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 200px 452px 280px 452px;
 }
 
 .footer-title {
@@ -93,7 +137,7 @@ body {
   color: var(--secondary-color);
 }
 
-.footer-box {
+.footer-block {
   background-color: #2f303a;
   height: 252px;
   width: 1600px;
