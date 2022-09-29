@@ -4,29 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
-    <link href="styles.css" rel="css/stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <a href="WebStudio">WebStudio</a>
-      <nav>
-        <a href="Agencja">Agencja</a>
-        <a href="Portfolio">Portfolio</a>
-        <a href="Kontakt">Kontakt</a>
-      </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <phone>
-        <a href="tel:+48 111 111 111">+48 111 111 111</a>
-      </phone>
+    <header class="header-box">
+      <div class="wrapper">
+        <a href="WebStudio" class="logo"><span>Web</span>Studio</a>
+        <nav>
+          <a class="top-title" href="Agencja">Agencja</a>
+          <a class="top-title" href="Portfolio">Portfolio</a>
+          <a class="top-title" href="Kontakt">Kontakt</a>
+          <a class="top-title" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <phone>
+            <a class="top-title" href="tel:+48 111 111 111">+48 111 111 111</a>
+          </phone>
+        </nav>
+      </div>
     </header>
     <main>
       <section>
-        <h1> EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button>Zamów usługę</button>
+        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="button">Zamów usługę</button>
         <article>
           <h3>LOREM IPSUM</h3>
           <p>
@@ -73,50 +80,52 @@
         <img src="images/photo-3.jpg" alt="Tablet" width="370" height="294" />
       </section>
       <h2>Nasz zespół</h2>
-          <figure>
-            <img
-              src="images/img-1.jpg"
-              alt="Pan w bordowej koszuli"
-              width="270"
-              height="260"
-            />
-            <figcaption>John Doe Product Designer</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/img-2.jpg"
-              alt="Pani z blond włosami"
-              width="270"
-              height="260"
-            />
-            <figcaption>John Doe Frontend Developer</figcaption>
-          </figure>
-        <figure>
-          <img
-            src="images/img-3.jpg"
-            alt="Pan w białej koszuli"
-            width="270"
-            height="260"
-          />
-          <figcaption>John Doe Marketing</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="images/img-4.jpg"
-            alt="Pan w czarnej koszuli"
-            width="270"
-            height="260"
-          />
-          <figcaption>John Doe UI Designer</figcaption>
-        </figure>
-      </div>
+      <figure>
+        <img
+          src="images/img-1.jpg"
+          alt="Pan w bordowej koszuli"
+          width="270"
+          height="260"
+        />
+        <figcaption>John Doe Product Designer</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="images/img-2.jpg"
+          alt="Pani z blond włosami"
+          width="270"
+          height="260"
+        />
+        <figcaption>John Doe Frontend Developer</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="images/img-3.jpg"
+          alt="Pan w białej koszuli"
+          width="270"
+          height="260"
+        />
+        <figcaption>John Doe Marketing</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="images/img-4.jpg"
+          alt="Pan w czarnej koszuli"
+          width="270"
+          height="260"
+        />
+        <figcaption>John Doe UI Designer</figcaption>
+      </figure>
     </main>
-    <footer>
-      <a href="WebStudio">WebStudio</a>
+    <footer class="footer-box">
+      <a href="WebStudio" class="logo-2"><span>Web</span>Studio</a>
       <address>
-      <a>m. Warszawa, Aleje Jerozolimskie 21</a>.<br>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>.<br>
-        <a href="tel:+48 111 111 111">+48 111 111 111</a>.<br>
+        <a class="footer-title">m. Warszawa, Aleje Jerozolimskie 21</a>.<br />
+        <a href="mailto:info@devstudio.com" class="footer-contact"
+          >info@devstudio.com</a
+        >.<br />
+        <a href="tel:+48 111 111 111" class="footer-contact">+48 111 111 111</a
+        >.<br />
       </address>
     </footer>
   </body>
