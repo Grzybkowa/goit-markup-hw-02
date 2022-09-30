@@ -2,11 +2,12 @@
   --main-black: #212121;
   --primary-color: #2196f3;
   --secondary-color: #ffffff;
+  --tertiary-color: #2f303a;
 }
 
 body {
   max-width: 100%;
-  background: #ffffff;
+  background: var(--secondary-color);
   color: #212121;
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
@@ -18,31 +19,6 @@ body {
 
 .header-block {
   background: #ffffff;
-}
-
-.logo {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: var(--main-black);
-  text-decoration: none;
-  margin-right: 93px;
-}
-
-.logo span {
-  color: #2196f3;
-}
-
-.top-title {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--main-black);
 }
 
 .header-title {
@@ -58,33 +34,55 @@ body {
   margin-left: 371px;
 }
 
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--main-black);
+  text-decoration: none;
+  margin-right: 93px;
+  margin-left: 215px;
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+.top-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-black);
+}
+
 .logo:hover,
 .top-title:hover,
 .top-title:active,
 .footer-contact:hover,
 .footer-contact:active {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
-.button-1 {
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+.btn {
   height: 50px;
   width: 200px;
-  border-radius: 4px;
-}
-
-.button-1 span {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #ffffff;
+  color: var(--secondary-color);
   text-shadow: 1px 1px 1px #000000;
-}
-
-.button-1:hover {
-  background-color: var(--primary-color);
 }
 
 .logo-2 {
@@ -95,16 +93,24 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--secondary-color);
+  margin-left: 215px;
 }
 
 .logo-2 span {
-  color: #2196f3;
+  color: var(--primary-color);
 }
 
-.main-block-1 {
+.main-block {
   height: 600px;
   width: 1600px;
-  background: #2f303a;
+  background: var(--tertiary-color);
+}
+
+.main-block .btn {
+  position: absolute;
+  align-items: center;
+  top: 60%;
+  left: 50%;
 }
 
 .main-title {
@@ -118,6 +124,73 @@ body {
   padding: 200px 452px 280px 452px;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.description-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.description-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main-title-2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-black);
+}
+
+.main-img {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.team-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+.team-name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-black);
+  display: flex;
+  flex-direction: column;
+}
+
+.team-name .role {
+  font-weight: 400;
+  color: #757575;
+}
+
+.team-name .name {
+  margin-bottom: 10px;
+}
+
 .footer-title {
   font-family: Roboto;
   font-size: 14px;
@@ -125,6 +198,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-left: 215px;
 }
 
 .footer-contact {
@@ -135,10 +209,15 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--secondary-color);
+  margin-left: 215px;
 }
 
 .footer-block {
-  background-color: #2f303a;
+  background-color: var(--tertiary-color);
   height: 252px;
   width: 1600px;
+}
+
+.address-line {
+  gap: 9px;
 }
