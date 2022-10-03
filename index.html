@@ -16,18 +16,22 @@
   <body>
     <header class="header-block">
       <div class="wrapper">
-        <a href="WebStudio" class="logo"><span>Web</span>Studio</a>
+        <a href="WebStudio" class="logo hover-link"
+          ><span class="blue">Web</span>Studio</a
+        >
         <nav class="header-title">
-          <a class="top-title" href="Agencja">Agencja</a>
-          <a class="top-title" href="Portfolio">Portfolio</a>
-          <a class="top-title" href="Kontakt">Kontakt</a>
+          <a class="top-title hover-link" href="Agencja">Agencja</a>
+          <a class="top-title hover-link" href="Portfolio">Portfolio</a>
+          <a class="top-title hover-link" href="Kontakt">Kontakt</a>
         </nav>
         <div class="header-contact">
-          <a class="top-title" href="mailto:info@devstudio.com"
+          <a class="top-title hover-link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
           <phone>
-            <a class="top-title" href="tel:+48 111 111 111">+48 111 111 111</a>
+            <a class="top-title hover-link" href="tel:+48 111 111 111"
+              >+48 111 111 111</a
+            >
           </phone>
         </div>
       </div>
@@ -36,38 +40,38 @@
       <section>
         <div class="main-block">
           <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="btn">ZAMÓW USŁUGE</button>
+          <button class="btn btn-hover">ZAMÓW USŁUGE</button>
         </div>
-        <div class="description">
-          <article>
+        <ul class="list-style-none data-display-flex description-gap">
+          <li>
             <h3 class="description-title">LOREM IPSUM</h3>
             <p class="description-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
-          </article>
-          <article>
+          </li>
+          <li>
             <h3 class="description-title">LOREM IPSUM</h3>
             <p class="description-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
-          </article>
-          <article>
+          </li>
+          <li>
             <h3 class="description-title">LOREM IPSUM</h3>
             <p class="description-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
-          </article>
-          <article>
+          </li>
+          <li>
             <h3 class="description-title">LOREM IPSUM</h3>
             <p class="description-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
-          </article>
-        </div>
+          </li>
+        </ul>
       </section>
       <section>
         <h2 class="main-title-2">Czym się zajmujemy</h2>
@@ -89,66 +93,79 @@
       </section>
       <section>
         <h2 class="main-title-2">Nasz zespół</h2>
-        <div class="team-img">
-          <figure>
-            <img
-              src="images/img-1.jpg"
-              alt="Pan w bordowej koszuli"
-              width="270"
-              height="260"
-            />
-            <figcaption class="team-name">
-              <span class="name">John Doe</span>
-              <span class="role">Product Designer</span>
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/img-2.jpg"
-              alt="Pani z blond włosami"
-              width="270"
-              height="260"
-            />
-            <figcaption class="team-name">
-              <span class="name">John Doe</span>
-              <span class="role">Frontend Developer</span>
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/img-3.jpg"
-              alt="Pan w białej koszuli"
-              width="270"
-              height="260"
-            />
-            <figcaption class="team-name">
-              <span class="name">John Doe</span
-              ><span class="role">Marketing</span>
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/img-4.jpg"
-              alt="Pan w czarnej koszuli"
-              width="270"
-              height="260"
-            />
-            <figcaption class="team-name">
-              <span class="name">John Doe</span>
-              <span class="role">UI Designer</span>
-            </figcaption>
-          </figure>
-        </div>
+        <ul class="list-style-none">
+          <div class="team-img">
+            <li>
+              <figure>
+                <img
+                  src="images/img-1.jpg"
+                  alt="Pan w bordowej koszuli"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="team-name">
+                  <span class="name">John Doe</span>
+                  <span class="role">Product Designer</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/img-2.jpg"
+                  alt="Pani z blond włosami"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="team-name">
+                  <span class="name">John Doe</span>
+                  <span class="role">Frontend Developer</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/img-3.jpg"
+                  alt="Pan w białej koszuli"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="team-name">
+                  <span class="name">John Doe</span
+                  ><span class="role">Marketing</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/img-4.jpg"
+                  alt="Pan w czarnej koszuli"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="team-name">
+                  <span class="name">John Doe</span>
+                  <span class="role">UI Designer</span>
+                </figcaption>
+              </figure>
+            </li>
+          </div>
+        </ul>
       </section>
     </main>
     <footer class="footer-block">
-      <a href="WebStudio" class="logo-2"><span>Web</span>Studio</a>
+      <a href="WebStudio" class="logo hover-link"
+        ><span class="white">Web</span><span class="blue">Studio</span></a
+      >
       <address>
-        <a class="footer-title">m. Warszawa, Aleje Jerozolimskie 21</a>.<br />
-        <a href="mailto:info@devstudio.com" class="footer-contact"
+        <a class="footer-data">m. Warszawa, Aleje Jerozolimskie 21</a>.<br />
+        <a href="mailto:info@devstudio.com" class="footer-data hover-link"
           >info@devstudio.com</a
         >.<br />
-        <a href="tel:+48 111 111 111" class="footer-contact">+48 111 111 111</a
+        <a href="tel:+48 111 111 111" class="footer-data hover-link"
+          >+48 111 111 111</a
         >.<br />
       </address>
     </footer>
