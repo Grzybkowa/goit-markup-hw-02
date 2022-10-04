@@ -23,14 +23,14 @@ body {
 .header-title {
   display: flex;
   align-items: center;
+  padding: 32px;
   gap: 46px;
 }
 
 .header-contact {
   display: flex;
   align-items: center;
-  margin-left: 50px;
-  gap: 50px;
+  padding: 32px 50px;
 }
 
 .logo {
@@ -40,7 +40,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-black);
   text-decoration: none;
-  margin-right: 93px;
+  padding: 24px 93px 25px 215px;
 }
 
 .blue {
@@ -70,8 +70,7 @@ body {
 }
 
 .btn {
-  height: 50px;
-  width: 200px;
+  padding: 10px 42px;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -79,17 +78,18 @@ body {
   text-align: center;
   color: var(--secondary-color);
   text-shadow: 1px 1px 1px #000000;
+  cursor: pointer;
 }
 
 .btn-portfolio {
-  height: 38.27px;
-  width: 121px;
+  padding: 6px 22px;
   border: 0px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
+  cursor: pointer;
 }
 
 .btn-portfolio-gap {
@@ -122,6 +122,11 @@ body {
 .data-display-flex {
   display: flex;
   justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .description-gap {
@@ -158,12 +163,6 @@ body {
   justify-content: center;
 }
 
-.team-img {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 94px;
-}
-
 .team-name {
   font-size: 16px;
   font-weight: 500;
@@ -173,6 +172,12 @@ body {
   color: var(--main-black);
   display: flex;
   flex-direction: column;
+}
+
+.team-name .portfolio {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
 }
 
 .team-name .role {
