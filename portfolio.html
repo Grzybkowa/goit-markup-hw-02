@@ -16,24 +16,26 @@
   <body>
     <header class="header-block">
       <div class="wrapper">
-        <a href="index.html" class="logo hover-link"
-          ><span class="blue">Web</span>Studio</a
-        >
-        <nav class="header-title">
-          <a class="top-title hover-link" href="Agencja">Agencja</a>
-          <a class="top-title hover-link" href="portfolio.html">Portfolio</a>
-          <a class="top-title hover-link" href="Kontakt">Kontakt</a>
-        </nav>
+        <div class="main-navigation-with-logo">
+          <a href="index.html" class="logo hover-link"
+            ><span class="blue">Web</span>Studio</a
+          >
+          <nav class="main-navigation">
+            <a class="top-title hover-link" href="Agencja">Agencja</a>
+            <a class="top-title hover-link" href="portfolio.html">Portfolio</a>
+            <a class="top-title hover-link" href="Kontakt">Kontakt</a>
+          </nav>
+        </div>
 
-        <a
-          class="top-title hover-link header-contact"
-          href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
+        <div class="header-contact-links">
+          <a class="top-title hover-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
 
-        <a class="top-title hover-link header-contact" href="tel:+48111111111"
-          >+48 111 111 111</a
-        >
+          <a class="top-title hover-link" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </div>
       </div>
     </header>
     <main>
@@ -198,18 +200,24 @@
       </section>
     </main>
     <footer class="footer-block">
-      <a href="WebStudio" class="logo hover-link"
-        ><span class="white">Web</span><span class="blue">Studio</span></a
-      >
-      <address>
-        <a class="footer-data">m. Warszawa, Aleje Jerozolimskie 21</a>.<br />
-        <a href="mailto:info@devstudio.com" class="footer-data hover-link"
-          >info@devstudio.com</a
-        >.<br />
-        <a href="tel:+48111111111" class="footer-data hover-link"
-          >+48 111 111 111</a
-        >.<br />
-      </address>
+      <div class="footer-wrapper">
+        <a href="WebStudio" class="logo hover-link footer-logo"
+          ><span class="white">Web</span><span class="blue">Studio</span></a
+        >
+        <address>
+          <a class="footer-data footer-navigation"
+            >m. Warszawa, Aleje Jerozolimskie 21</a
+          >.<br />
+          <a
+            href="mailto:info@devstudio.com"
+            class="footer-data hover-link footer-navigation"
+            >info@devstudio.com</a
+          >.<br />
+          <a href="tel:+48111111111" class="footer-data hover-link"
+            >+48 111 111 111</a
+          >.<br />
+        </address>
+      </div>
     </footer>
   </body>
 </html>
